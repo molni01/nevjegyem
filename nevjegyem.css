@@ -70,25 +70,35 @@ table {
 .profile-card {
   width: 35rem;
   max-width: 90vw;
+  align-items: left;
 }
 
 .name-headline {
     float:left;
+    margin-top: -5rem;
+    text-align: center;
+    line-height: 1.5rem
 }
 
 img {
   width: 7.5rem;
   height: 7.5rem;
   border-radius: 50%;
-  padding: 1px;
+  padding: .0625rem;
   background-color: #666;
   transition: all 0.5s ease-in-out;
   filter: grayscale(100%);
 }
 
+img:hover {
+  transform: scale(1.17);
+  filter: grayscale(0%);
+}
+
+
 .profile-image {
       margin-top: .5rem;
-      margin-right: .05rem;
+      margin-right: -.8rem;
       text-align: right;
 }
 
@@ -100,7 +110,14 @@ body {
   font-family: Inconsolata, "Times New Roman", Verdena, "serif";
 }
 
+
+.about {text-align:justify;
+        margin-right: 3rem;
+}
+
+
 .links {
+  margin-right: 2.5rem;
   text-align: center;
 }
 
@@ -108,7 +125,6 @@ body {
       width: 90%;
       margin: 10 auto;
 }
-
 
 
 ul {
@@ -135,25 +151,19 @@ body {
 .profile-card {
   background-color: hsla(0, 0%, 100%, .5);
   border-radius: 10px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px
+  box-shadow: hsla(0, 0%, 0%, .8) .625rem .625rem 5rem
 }
 
-.content {
-      border-top: 1px solid hsla(0, 0%, 30%, .8);
-      opacity: 0.9;
-}
+hr {border-color:lightgray;
+   }
 
-img:hover {
-  transform: scale(1.13);
-  filter: grayscale(0%);
-}
 
 h1 {font-size: 140%;
     text-transform: uppercase;
 }  
 
+h2 {margin-bottom: 1.5rem}
 
-
-span {font-size: .9em;}
 
 .social-icon { color: grey;}
+
