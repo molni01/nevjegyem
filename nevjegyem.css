@@ -109,11 +109,9 @@ body {
   font-family: Inconsolata, "Times New Roman", Verdena, "serif";
 }
 
-
 .about {text-align:justify;
         margin-right: 3rem;
 }
-
 
 .links {
   margin-right: 2.5rem;
@@ -124,7 +122,6 @@ body {
       width: 90%;
       margin: 1rem auto;
 }
-
 
 ul {
   list-style-type: none;
